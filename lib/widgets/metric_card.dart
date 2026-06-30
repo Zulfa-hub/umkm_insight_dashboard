@@ -1,6 +1,3 @@
-// lib/widgets/metric_card.dart
-// Custom Widget: Kartu metrik untuk ringkasan analisis - gaya flat minimal
-
 import 'package:flutter/material.dart';
 import 'app_colors.dart';
 

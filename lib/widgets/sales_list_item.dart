@@ -1,6 +1,3 @@
-// lib/widgets/sales_list_item.dart
-// Widget item untuk ListView.builder - gaya flat minimal monokrom ungu
-
 import 'package:flutter/material.dart';
 import '../models/product_item.dart';
 import 'app_colors.dart';

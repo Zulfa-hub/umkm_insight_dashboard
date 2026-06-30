@@ -1,6 +1,3 @@
-// lib/widgets/trend_indicator.dart
-// Custom Widget: Indikator tren naik/turun/stabil - gaya flat minimal
-
 import 'package:flutter/material.dart';
 import '../models/product_item.dart';
 import 'app_colors.dart';

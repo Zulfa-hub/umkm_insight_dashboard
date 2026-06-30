@@ -1,6 +1,3 @@
-// lib/widgets/product_card.dart
-// Kartu produk untuk GridView.builder - gaya flat minimal monokrom ungu
-
 import 'package:flutter/material.dart';
 import '../models/product_item.dart';
 import 'app_colors.dart';

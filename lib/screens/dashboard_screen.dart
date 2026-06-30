@@ -1,8 +1,3 @@
-// lib/screens/dashboard_screen.dart
-// Dashboard utama UMKM Insight - FutureBuilder, LayoutBuilder,
-// GridView.builder, ListView.builder, dan analisis data dari REST API
-// Tema: Ungu monokrom minimal, AppBar standar
-
 import 'package:flutter/material.dart';
 import '../models/product_item.dart';
 import '../services/api_service.dart';

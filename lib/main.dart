@@ -1,7 +1,3 @@
-// lib/main.dart
-// Entry point UMKM Insight Dashboard
-// Aplikasi Monitoring Produk dan Penjualan Berbasis REST API
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'screens/dashboard_screen.dart';
