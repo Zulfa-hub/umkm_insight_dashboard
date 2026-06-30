@@ -34,19 +34,26 @@ class ProductCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // Placeholder kotak solid (gaya wireframe, tanpa gambar asli)
-          Container(
-            width: double.infinity,
-            height: 56,
-            decoration: BoxDecoration(
-              color: AppColors.primary,
-              borderRadius: BorderRadius.circular(10),
-            ),
-            child: Center(
-              child: Icon(
-                Icons.inventory_2_rounded,
-                color: Colors.white.withOpacity(0.85),
-                size: 22,
-              ),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: Image.asset(
+              product.image,
+              width: double.infinity,
+              height: 86,
+              fit: BoxFit.contain,
+
+              errorBuilder: (context, error, stackTrace) {
+                return Container(
+                  height: 86,
+                  color: AppColors.primary,
+                  child: const Center(
+                    child: Icon(
+                      Icons.image_not_supported,
+                      color: Colors.white,
+                    ),
+                  ),
+                );
+              },
             ),
           ),
           const SizedBox(height: 10),

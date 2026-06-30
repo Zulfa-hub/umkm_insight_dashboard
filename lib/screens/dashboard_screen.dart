@@ -355,7 +355,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           .map((card) => Expanded(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 5),
-          child: SizedBox(height: 108, child: card),
+          child: SizedBox(height: 126, child: card),
         ),
       ))
           .toList(),

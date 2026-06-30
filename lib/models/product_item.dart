@@ -8,6 +8,7 @@ class ProductItem {
   final int stock;
   final int sold;
   final TrendDirection trend;
+  final String image;
 
   const ProductItem({
     required this.id,
@@ -17,6 +18,7 @@ class ProductItem {
     required this.stock,
     required this.sold,
     required this.trend,
+    required this.image
   });
 
   // Factory constructor untuk parsing JSON dari REST API
@@ -29,6 +31,7 @@ class ProductItem {
       stock: _parseInt(json['stock']),
       sold: _parseInt(json['sold']),
       trend: _parseTrend(json['trend']),
+      image: json['image'],
     );
   }
 
